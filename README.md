@@ -52,7 +52,6 @@ Verfügbare Notebooks (nach Start auswählen):
 
 ## Dateien
 - `requirements.txt` Abhängigkeiten
-- (Optional) `runtime.txt` zum Fixieren einer Python-Version
 
 ## Lokal (optional)
 ```
