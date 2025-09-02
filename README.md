@@ -49,19 +49,10 @@ Falls Jupyter nicht installiert ist: `pip install jupyterlab`.
 
 ## 🇩🇪 Deutsch
 
-### Binder Start
-Direktlink zum Notebook:
 
-https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD?labpath=qiskit_workshop_demo_blanks.ipynb
 
-Allgemeiner Repo-Link (Datei-Browser):
 
-https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD
 
-Badge:
-```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD)
-```
 
 ### Inhalte des Notebooks
 1. Kapitel 1: Ein Qubit mit Hadamard – wir sehen 0/1-Verteilung.
