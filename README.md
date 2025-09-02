@@ -1,62 +1,97 @@
 # Qiskit Workshop (Binder Ready)
 
-English | Deutsch weiter unten
+Deutsch (unten) | English (below)
 
-## Launch on Binder
-Generic launch (opens JupyterLab file browser; user chooses a notebook):
+> Fokus: Ein leicht erfassbares Notebook zum Einstieg in Qubits, Messung, einfache Gate-Manipulation und CNOT (CX) Wahrheitstabelle – komplett lauffähig auf Binder.
+
+## 🚀 Quick Launch (Binder)
+Direkt das Notebook öffnen (empfohlen):
+
+https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD?labpath=qiskit_workshop_demo_blanks.ipynb
+
+Badge (generisch auf Repo):
 
 ```
-https://mybinder.org/v2/gh/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>/HEAD
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD)
 ```
 
-Badge Markdown:
+## 📓 Notebook Inhalt (Kurz)
+`qiskit_workshop_demo_blanks.ipynb`
 
-```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>/HEAD)
-```
+| Kapitel | Thema | Kernideen |
+|---------|-------|-----------|
+| 1 | Einzel-Qubit Messung | Hadamard → Superposition, Histogramm, Shots |
+| 2 | Messergebnis beeinflussen | X (deterministisch), RY(θ) (Wahrscheinlichkeit), H–Z–H (Phase) |
+| 3 | CNOT (CX) | Wahrheitstabelle, Simulation aller 4 Eingaben, Circuit-Diagramme, gemeinsames Histogramm |
 
-Available notebooks (select after launch):
-- `qiskit_workshop_demo_blanks.ipynb`
-- `qiskit_workshop_demo_solution.ipynb`
+Optional erweiterbar um: Bell-State, Bloch-Sphäre, weitere Mehr-Qubit-Gatter.
 
-## Repository Files
-- `requirements.txt` minimal dependency list (qiskit, aer, matplotlib, pylatexenc)
-- (Optional) add a `runtime.txt` if you want to pin Python later
-- Notebooks: blanks + solution
+## 🗂 Repository Struktur
+| Datei | Zweck |
+|-------|------|
+| `qiskit_workshop_demo_blanks.ipynb` | Haupt-Workshop-Notebook (Deutsch) |
+| `requirements.txt` | Minimal benötigte Pakete (qiskit, qiskit-aer, matplotlib, pylatexenc) |
+| `README.md` | Diese Anleitung |
 
-## Local Use (Optional)
-```
+> Hinweis: Eine frühere Referenz auf ein *solution*-Notebook wurde entfernt, da aktuell nur ein Arbeits-Notebook vorliegt.
+
+## 💻 Lokal ausführen
+```powershell
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab
 ```
+
+Falls Jupyter nicht installiert ist: `pip install jupyterlab`.
 
 ---
 
-## Start auf Binder (Deutsch)
-Generischer Start (öffnet JupyterLab Datei-Browser; Benutzer wählt Notebook):
+## 🇩🇪 Deutsch
 
-```
-https://mybinder.org/v2/gh/<IHR_GITHUB_USERNAME>/<IHR_REPO_NAME>/HEAD
-```
+### Binder Start
+Direktlink zum Notebook:
+
+https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD?labpath=qiskit_workshop_demo_blanks.ipynb
+
+Allgemeiner Repo-Link (Datei-Browser):
+
+https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD
 
 Badge:
 ```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<IHR_GITHUB_USERNAME>/<IHR_REPO_NAME>/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD)
 ```
 
-Verfügbare Notebooks (nach Start auswählen):
-- `qiskit_workshop_demo_blanks.ipynb`
-- `qiskit_workshop_demo_solution.ipynb`
+### Inhalte des Notebooks
+1. Kapitel 1: Ein Qubit mit Hadamard – wir sehen 0/1-Verteilung.
+2. Kapitel 2: Drei Varianten wie man Messungen erzwingt oder Wahrscheinlichkeiten steuert (X, RY, H–Z–H).
+3. Kapitel 3: CNOT Wahrheitstabelle + Visualisierung aller vier Eingabefälle.
 
-## Dateien
-- `requirements.txt` Abhängigkeiten
+Erweiterungsideen (nicht umgesetzt):
+- Bell-State nach Kapitel 3 anschließen
+- Bloch-Sphäre zur Visualisierung von RY
+- Grundlagen zu Mess-Basiswechsel (H vor Messung)
 
-## Lokal (optional)
-```
+### Lokale Ausführung
+```powershell
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab
 ```
+
+### Anforderungen
+Siehe `requirements.txt`. (Qiskit zieht ggf. weitere Abhängigkeiten automatisch.)
+
+---
+
+Direct Binder link:
+https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD?labpath=qiskit_workshop_demo_blanks.ipynb
+
+---
+
+### Lizenz / Hinweis
+Kein spezieller Lizenztext hinterlegt – bei Bedarf ergänzen.
+
+Viel Erfolg beim Ausprobieren! ✨
