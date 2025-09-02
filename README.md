@@ -4,19 +4,9 @@ Deutsch (unten) | English (below)
 
 > Fokus: Ein leicht erfassbares Notebook zum Einstieg in Qubits, Messung, einfache Gate-Manipulation und CNOT (CX) Wahrheitstabelle – komplett lauffähig auf Binder.
 
-## 🚀 Quick Launch (Binder)
-Direkt das Notebook öffnen (empfohlen):
 
-https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD?labpath=qiskit_workshop_demo_blanks.ipynb
 
-Badge (generisch auf Repo):
 
-```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD)
-```
-
-## 📓 Notebook Inhalt (Kurz)
-`qiskit_workshop_demo_blanks.ipynb`
 
 | Kapitel | Thema | Kernideen |
 |---------|-------|-----------|
