@@ -65,12 +65,7 @@ jupyter lab
 ### Anforderungen
 Siehe `requirements.txt`. (Qiskit zieht ggf. weitere Abhängigkeiten automatisch.)
 
----
 
-Direct Binder link:
-https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD?labpath=qiskit_workshop_demo_blanks.ipynb
-
----
 
 ### Lizenz / Hinweis
 Kein spezieller Lizenztext hinterlegt – bei Bedarf ergänzen.
