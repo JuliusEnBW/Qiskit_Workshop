@@ -7,12 +7,9 @@
 Direkter Link (falls Badge nicht lädt):
 https://mybinder.org/v2/gh/JuliusEnBW/Qiskit_Workshop/HEAD
 
-Deutsch (unten) | English (below)
+Deutsch (unten) 
 
 > Fokus: Ein leicht erfassbares Notebook zum Einstieg in Qubits, Messung, einfache Gate-Manipulation und CNOT (CX) Wahrheitstabelle – komplett lauffähig auf Binder.
-
-
-
 
 
 | Kapitel | Thema | Kernideen |
